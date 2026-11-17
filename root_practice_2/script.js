@@ -17,9 +17,10 @@ let boooolean = true;
 let nickname;
 
 
+alert(Name);
 
 //pop in website and thisplay this of name
-alert(Name);
+
   
 //display in console output off java script in F12 of website
   console.log(Name);
@@ -34,5 +35,9 @@ let dogs = " Ako si dogie 3";
   document.write(dogs);
 
 
+//DOM Manipulation (Document Object Model Manipulation).
+let birthday_Number = 9;
+
+document.getElementById("output").textContent = "May birsth say number is number : " + birthday_Number ;
 
   
